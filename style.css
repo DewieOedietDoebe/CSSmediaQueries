@@ -1,0 +1,82 @@
+body { color: grey;}
+
+body {background-color: lightblue; opacity: 0.8;}
+
+
+head { color: blue;}
+
+
+.black-border {border: 5px solid black; margin: 35px 70px 50px 90px; padding: 5px 5px 5px 5px;}
+
+.blue-border {border: 3px solid blue; margin: 0 auto; width: 50%; padding: 5px 5px 5px 5px;}
+
+.green-border {border: 5px solid lightseagreen; margin: 35px 70px 50px 90px; padding: 5px 5px 5px 5px;}
+
+#green-background {background-color: green; }
+p1 {color: #00ghf06;}
+h1 {color: green}
+ul {color:green}
+
+h1 {font-family: "Arial", sans-serif;font-size: 40px; }
+h2 {font-family: "Arial", sans-serif;font-size: 15px; }
+
+p1 {font-family: "Arial", sans-serif; font-size: 20px;}
+p2 {font-family: "Arial", sans-serif; font-size: 15px; color:black}
+
+
+a {font-family: "Arial", sans-serif; font-size: 20px;}
+
+img {float: centre; margin: 0 0 .8em 1em; border: 8px solid #999;}
+
+li {
+    display: inline;
+  }
+
+ol {
+    display: block;
+    
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+  }
+
+
+/ MEDIA QUERIES START HERE \
+
+
+@media smartphones (min-width: 320px) {
+
+}
+
+@media (min-width: 1024px) {
+  body {
+    background-color: rgb(122, 122, 168)
+}
+
+@media (min-width: 1024px) {
+  body {
+    color: rgb(7, 7, 7)
+}
+
+@media (min-width: 1024px) {
+  body {
+    font-size:smaller
+}
+
+
+@media (min-width: 1024px) {
+  body {
+    line-height:normal 
+}
+
